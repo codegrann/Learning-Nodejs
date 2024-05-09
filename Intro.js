@@ -6,8 +6,6 @@ const myVar = 45;
 
 // http module
 const server = http.createServer((req, res) => {
-  res.writeHead(200, { "Content-Type": "text/html" });
-
   // URL module
   /*try {
     let q = url.parse(req.url, true).query;
@@ -18,9 +16,10 @@ const server = http.createServer((req, res) => {
   }*/
 
   // fs module
-  fs.readFile("index.html", (err, data) => {
+  fs.readFile("input.html", (err, data) => {
+    res.writeHead(200, { "Content-Type": "text/html" });
     res.write(data);
-    res.end();
+    return res.end();
   });
 });
 
