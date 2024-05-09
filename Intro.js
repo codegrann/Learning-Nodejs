@@ -14,13 +14,31 @@ const server = http.createServer((req, res) => {
   } catch (e) {
     res.write("error");
   }*/
-
   // fs module
+  /*READ FROMA FILE
   fs.readFile("input.html", (err, data) => {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.write(data);
-    return res.end();
-  });
+    res.end();
+  });*/
+  /*
+   APPEND CONTENT TO A FILE
+
+  fs.appendFile(
+    "input1.txt",
+    "Created this file using appendFile method",
+    (err) => {
+      if (err) throw err;
+    }
+  );*/
+  /*OPEN AND WRITE TO A FILE
+  fs.open("input.txt", "r", (err, file) => {
+    fs.writeFile("input.txt", "this is fresh content", (err) => {});
+    fs.readFile("input.txt", (err, data) => {
+      res.write(data);
+      res.end();
+    });
+  });*/
 });
 
 server.listen(3000);
