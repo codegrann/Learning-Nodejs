@@ -6,14 +6,6 @@ const myVar = 45;
 
 // http module
 const server = http.createServer((req, res) => {
-  // URL module
-  /*try {
-    let q = url.parse(req.url, true).query;
-    let text = q.year + " " + q.month + " " + q.day;
-    res.write(text);
-  } catch (e) {
-    res.write("error");
-  }*/
   // fs module
   /*READ FROMA FILE
   fs.readFile("input.html", (err, data) => {
@@ -39,6 +31,31 @@ const server = http.createServer((req, res) => {
       res.end();
     });
   });*/
+  /*DELETE FILE
+  fs.unlink("input.txt", (err) => {});*/
+
+  // URL module
+  /*try {
+    let q = url.parse(req.url, true);
+    let text = q.year + " " + q.month + " " + q.day;
+    res.write(q);
+    res.end();
+  } catch (e) {
+    res.write("error");
+  } */
+
+  // serve file requested by client
+  let q = url.parse(req.url, true);
+  let filename = "." + q.pathname;
+  fs.readFile(filename, (err, data) => {
+    if (err) {
+      res.writeHead(404, { "Content-Type": "text/html" });
+      res.end("<h1>404 Not Found</h1>");
+    }
+    res.writeHead(200, { "Contet-Type": "text/html" });
+    res.write(data);
+    res.end();
+  });
 });
 
 server.listen(3000);
