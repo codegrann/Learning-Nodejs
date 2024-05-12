@@ -1,6 +1,7 @@
 const http = require("http");
 const url = require("url");
 const fs = require("fs");
+const formidable = require("formidable");
 
 const myVar = 45;
 
@@ -54,6 +55,18 @@ const server = http.createServer((req, res) => {
     res.write(data);
     res.end();
   });*/
+
+  // EVENT + EventEmitter
+
+  // formidable
+  // UPLOAD AND SAVE FILE
+
+  res.writeHead(200, { "Content-Type": "text/html" });
+  res.write("<form action='fileupload' method='POST'>");
+  res.write("<input type='file' name='fileupload'>");
+  res.write("<input type='submit'>");
+  res.write("</form>");
+  res.end();
 });
 
 server.listen(3000);
