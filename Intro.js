@@ -33,7 +33,6 @@ const server = http.createServer((req, res) => {
   });*/
   /*DELETE FILE
   fs.unlink("input.txt", (err) => {});*/
-
   // URL module
   /*try {
     let q = url.parse(req.url, true);
@@ -43,9 +42,8 @@ const server = http.createServer((req, res) => {
   } catch (e) {
     res.write("error");
   } */
-
   // serve file requested by client
-  let q = url.parse(req.url, true);
+  /*let q = url.parse(req.url, true);
   let filename = "." + q.pathname;
   fs.readFile(filename, (err, data) => {
     if (err) {
@@ -55,7 +53,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { "Contet-Type": "text/html" });
     res.write(data);
     res.end();
-  });
+  });*/
 });
 
 server.listen(3000);
