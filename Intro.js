@@ -2,6 +2,7 @@ const http = require("http");
 const url = require("url");
 const fs = require("fs");
 const formidable = require("formidable");
+const path = require("path");
 
 const myVar = 45;
 
@@ -61,12 +62,32 @@ const server = http.createServer((req, res) => {
   // formidable
   // UPLOAD AND SAVE FILE
 
-  res.writeHead(200, { "Content-Type": "text/html" });
-  res.write("<form action='fileupload' method='POST'>");
-  res.write("<input type='file' name='fileupload'>");
-  res.write("<input type='submit'>");
-  res.write("</form>");
-  res.end();
+  if (req.url == "/fileupload") {
+    let form = new formidable.IncomingForm();
+    form.uploadDir = "./myfiles";
+    form.keepExtensions = true;
+
+    form.parse(req, (err, fields, files) => {
+      const oldPath = files.fileupload.filepath;
+      const newPath = path.join(
+        form.uploadDir,
+        files.fileupload.originalFilename
+      );
+      fs.rename(oldPath, newPath, (err) => {
+        res.write("File Uploaded");
+        res.end();
+      });
+    });
+  } else {
+    res.writeHead(200, { "Content-Type": "text/html" });
+    res.write(
+      "<form action='fileupload' method='post' enctype='multipart/form-data'>"
+    );
+    res.write("<input type='file' name='fileupload'>");
+    res.write("<input type='submit'>");
+    res.write("</form>");
+    res.end();
+  }
 });
 
 server.listen(3000);
