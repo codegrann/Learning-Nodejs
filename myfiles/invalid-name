@@ -1,11 +1,425 @@
-business merchant
-Email=sb-7ztgr27281613@business.example.com
-password=*_btG%C0
+grass canyon dentist fog example crucial hockey deputy hamster shoulder panic cycle 
 
-personal 
-Email=sb-u7w1q27340316@personal.example.com
-password=I@L;05zd
 
-Default APP
-id=AWmxXWibnj8YlDVep6pUG8sW1lB2aEMQVfiYSNZYDeX-JqHQ5NtntUZkeSjcWJhnvJMhuUOkHMPDhd8-
-secret=EEBsYECy-NVMDlcAPg0xFnJjXpT3XSf6qRehnN0BKnEnh2-3SuyKdYtC3S8egFbpMdd3km-r7J8iZrs1s
+curl --location --request POST 'https://faucet.devnet.sui.io/gas' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "FixedAmountRequest": {
+    "recipient": "0x62209ad8b25c4d29d31ab819845faea100d43301f0699dcb7526165440716b2c"
+  }
+}'
+
+
+
+
+
+<>0xcd1bd75107c3541d2a974fb4b8f1344c1935c7e045bbfd09187aa55828bc9610</>
+/*0 xf664fc1ff1abba3cc1732d8cfbd155c42e3d29712cdae744604495e146e0f308*/
+
+
+
+0x061dcd3328949c831629d941d3d23b506baa793b9dd7b12d6dd50f56ae63512a
+
+FIREFOX
+SDTContract 1 - 0x4705750541F02579685c7DB50415Fd41d15f1cf7
+SKTContract 2 - 
+
+CHROME
+SDTContract 1 - 0x851d48E265929D5032C413Eb568A809375dd9556
+SKTContract 2 - 0x883f9E5866157A8cd760Ac0A9004730CB869D298
+
+TokenSwap - 0xAA74b86151b23Ea0f0004dc7304C9BC823767C3c
+
+
+
+
+https://meet.google.com/dtz-htru-fed
+
+
+
+
+
+
+0x8a4123132f0c369b93bef96e81db6a0c71ffbb493a455b64d8d367330b79568b
+
+sui client call --function change_owner_name --module bookkeeper --package $PACKAGE_ID --args 0xf1aacc950e4cf06c23590d8c9642690ef5244df43ac598641bd65bdb299dd0a8 "codegram" --gas-budget 1000000000
+
+
+
+INTRODUCTION                                                                                                                                                                                                                             Introduction
+Welcome to the first quest of this campaign where we will introduce Immutable zkEVM, the most cutting-edge gaming technology in web3.
+
+We will first trace back to the origin of Immutable, which originated by addressing the limitations of NFTs on Ethereum. We will then spotlight Immutable zkEVM and unpack how Immutable zkEVM empowers developers to effortlessly build top-tier games with ease!                                                                                             Emerging from the strategic partnership between Immutable and Polygon, Immutable zkEVM is the most cutting-edge technology in gaming bolstered with the largest ecosystem in Web3.
+
+Immutable zkEVM combines the benefits of zk-rollup technology and the network effects of Ethereum. Additionally, developers building on Immutable zkEVM are granted access to an entire suite of Immutable platform products streamlining the overall game development process. All these elements set the stage for Immutable zkEVM to redefine the future landscape of Web3 gaming!
+
+Before delving into the intricacies of Immutable zkEVM, we must first understand the foundational concepts and core principles of zkEVM. 
+
+If you are new to zkEVM, here’s a primer to get you started!
+
+Primer on zkEVM
+
+zkEVM, or Zero-Knowledge Ethereum Virtual Machine seeks to bring scalability and privacy to Ethereum transactions through the use of zero-knowledge proofs (zk-proofs).
+
+Core Concepts of zkEVM
+
+   - EVM, or Ethereum Virtual Machine are where smart contracts and transactions are executed
+
+
+    - Zero-Knowledge Proofs is a cryptographic method that allows one party to prove the truth of a statement to another party without revealing any specific information about the statement itself                                     Benefits of zkEVM
+
+Ethereum, being a leading smart contract platform often faces issues with scalability and privacy and zkEVM aims to addresses the following challenges:
+
+   - Scalability - By compressing and bundling multiple transactions under a single proof, the zkEVM can reduce the overall data and computational load hence greatly increasing the overall transaction throughput
+
+
+   - Privacy - Transactions can remain private while the validity is still verifiable by the Ethereum blockchain
+
+
+How does zkEVM work
+
+   - A user starts by initiating a transaction on zkEVM, which is then encoded
+    - For each encoded transaction, a zero-knowledge proof, typically a zk-SNARK is generated which contains the proof of validity for the transaction
+    - Instead of processing each transaction, the Ethereum nodes simply validate the transaction using the proof, eliminating the need to unpack the entire data                                                                                                    
+Now that you have a better understanding of the zkEVM, we are now ready to unveil Immutable zkEVM!
+
+Immutable zkEVM is an EVM-compatible zk-rollup, powered by Polygon's cutting-edge open-source zkEVM technology complemented with the full support of the Immutable platform.                                         While the majority of present-day blockchains serve as general-purpose platforms with certain design trade-offs, Immutable zkEVM is specifically designed for gaming! 
+
+This specialization enables game developers building on Immutable zkEVM to enjoy reduced costs, enhanced scalability, and seamless interoperability with Ethereum's smart contracts.
+
+BENEFITS OF IMMUtable zkEVM FOR DEVELOPERS
+
+    a) Network effects - Gain access to the combined networks of Immutable and Polygon to make acquiring gamers, tools and funding easier than ever. Build on the most cutting-edge technology in gaming with the largest ecosystem in web3.
+
+
+    b) Decrease development costs - Easily migrate existing smart contracts to the Immutable zkEVM environment or use Immutable’s repository of smart contract templates so you don't’ have to start from scratch and spend more of your resources building a great game.
+
+
+    c) Enhanced gameplay mechanics - Implement advanced functionality within your game to provide optimal player experiences. Staking, crafting, upgrading, and incorporating NFTs that can equip with other NFTs are all possible with Immutable zkEVM.
+
+
+    d) Seamless interoperability - With Immutable zkEVM, game developers can create games that are seamlessly interoperable with other games or platforms in the Ethereum ecosystem, enabling broader ecosystems and economies of scale.
+
+
+With a better understanding on the benefits of building on Immutable zkEVM, let's journey back to Immutable's origins, turning our attention next to the limitations of NFTs on Ethereum in the next step!                                                                                                                                                                                                                                 NFT LIMITATIONS ON ETEHREUM                                                                                                                                                                                                                              While Ethereum remains a dominant force in the blockchain landscape, NFTs on Ethereum do face limitations and grapple with significant challenges such as high transaction fees and low scalability, making it difficult for NFTs to reach global audiences. 
+
+Meanwhile, an increasing number of competing blockchains, devoid of Ethereum's network effects, are competing to capture a slice of the NFT space and in their bid to capture market share, these blockchains often prioritize scalability enhancements at the expense of security.
+
+Below are some of the key limitations of NFTs on Ethereum:
+
+A) Low Scalability
+
+Ethereum, prioritizing security and decentralization, inherently possesses a lower throughput of about 15 transactions per second (TPS).
+This constraint, coupled with Ethereum's surging network activity, results in higher gas fees, rendering transactions financially unfeasible for many users at times. As a consequence, both developers and users often find themselves sidelined due to these prohibitive expenses. 
+
+For games, this presents a multifaceted challenge as high transaction fees and slower transaction per second (TPS) disrupts in-game economies such as impeding real-time trades and purchases. 
+
+Under such an environment, gaming platforms are compelled to either absorb these costs on behalf of players thereby reducing their profitability or pass these costs onto players potentially dissuading their gaming community and players.
+
+B) Poor Developer Experience
+
+Presently, developers of NFT applications or marketplaces find themselves engrossed in developing the blockchain components of their projects. This focus detracts game developers from their core objective which is building an unparalleled gaming experience centered on genuine asset ownership. 
+
+Developers are also often required to pick up a new programming language and immediately write security-critical applications. Further, there is also a lack of traditional application development resources, like developer-friendly APIs and SDKs such that developers are required to build these components from scratch.
+
+This creates a massive barrier to entry for developers aspiring to build their NFT projects!
+C) Fragmented Liquidity
+
+NFTs, due to their unique attributes, aren't as liquid as the uniform ERC-20 tokens in DeFi, since each NFT is defined by its distinct ID.
+
+What this means is that in order to purchase an NFT collection, the user potentially has to initiate numerous buy orders across different NFT marketplaces which inadvertently increases the overall trading costs for the user and fragments liquidity. 
+
+With insights into the limitations of NFTs on Ethereum, in the next step, we will highlight how building on Immutable zkEVM effectively addresses these limitations.                                                                                            BUILDING ON IMMUTABLE zkEVM                                                                                                                                                                              In this step, we will delve into the advantages for developers to build their games on Immutable zkEVM!
+
+Immutable zkEVM simplifies game development like never before. Developers can effortlessly port games and smart contracts from any EVM-compatible chains straight into Immutable’s ecosystem without any modifications.
+
+Moreover, by building on Immutable zkEVM, developers would be able to access the Immutable platform, an all-in-one repository of developer-centric APIs and SDKs, designed for building top-tier web3 games!
+
+Empowered with these tools, developers can ensure a captivating, fluid experience from start to finish for players!                                                                                                                                                                                                          Addressing Ethereum's NFT limitations, in particular the challenge of fragmented liquidity, let's spotlight Orderbook!
+
+The Orderbook & Marketplace Network allows marketplaces, game studios and creators to sell an NFT anywhere, on any marketplace, in-game and also enables participants from listers, buyers and creators to set and dictate their own fees. 
+
+Additionally, Immutable's marketplace network boasts collaborations with over 14 renowned marketplaces, including industry giants like Gamestop, Rarible, and TokenTrove!
+
+What this means is that when an asset is listed on a marketplace, it's automatically distributed across all Immutable-affiliated marketplaces, with built-in enforceable royalties. 
+
+This strategic distribution amplifies asset visibility and demand, effectively counteracting the fragmented liquidity limitation.
+
+In essence, Immutable’s global orderbook and marketplace network empowers games to establish bespoke marketplaces and list assets on Immutable zkEVM, all without suffering a liquidity drawback!                                                                                                                                                                                                                               IMMUTABLE GAMING ECOSYSTEM                                                                                                                                                                Beyond Immutable zkEVM, Immutable is widely regarded as the most powerful ecosystem geared towards accelerating a game through development and deployment.
+
+To date, over 150 top-tier games have already committed to the Immutable ecosystem which is a testament to the Immutable vision’s for the future of web3 gaming!                                                                                               As more and more games onboard the Immutable ecosystem, this creates a dynamic powerful network effect where for every game launched on Immutable zkEVM, the appeal of the ecosystem magnifies making the ecosystem more attractive to all other participants.
+
+The following are some ways that makes the Immutable ecosystem particularly enticing for games to onboard into their ecosystem:
+
+    - Continuous integration of more marketplaces into Immutable's global marketplace network, broadening the support for Immutable zkEVM assets
+
+
+    - Expanding player community with ready-to-use, funded wallets, facilitating instant game onboarding and purchases on games built using Immutable zkEVM
+
+
+    - Enhanced composability paving the way for innovative mechanics and collaborative cross-game experiences
+
+
+In essence, building on Immutable zkEVM will give developers not just a purpose-built gaming blockchain and world-class platform toolset, but also the confidence of building as part of the largest ecosystem in web3 games!                                                                                                                                                               DIVING INTO IMMUTABLE zkEVM                                                                                                                                                                  Step 1: How Immutable zkEVM works
+In the previous quest, we have introduced Immutable zkEVM where we discuss the benefits for game developers aspiring to build on Immutable zkEVM and how Immutable zkEVM is poised to lead the next frontier of web3 game development ushering true asset ownership to gaming.
+
+In this quest, we will be delving deeper into the technicalities of Immutable zkEVM starting with Immutable zkEVM support for custom smart contract capabilities!
+
+Immutable zkEVM - Support for Custom Smart Contracts
+
+Immutable zkEVM support for custom smart contracts allows game developers to craft rich, dynamic experiences. This translates into sophisticated game mechanics, such as introducing evolution of game items and characters, with each action being verifiable securely on-chain.
+
+Moreover, this also extends to introducing more advanced features in game where developers can now build auctions and in-game lending, renting and swaps, all powered by smart contracts enhancing the overall gaming experience.
+
+Additionally, developers can also benefit by tapping and integrating existing developer kits and resources into their games, easing their transition to web3 game building. 
+
+This feature was previously not available for developers as developers were limited to the Immutable X rollup powered by Starkware which doesn’t support custom smart contracts limiting the use cases and features that could be built in games.                                                                                                                         Immutable zkEVM vs Immutable X
+
+Moving forward, Immutable will support two distinct rollups options for developers namely Immutable zkEVM and Immutable X roll ups. 
+
+Furthermore, every product from Immutable will also be available across these rollups. This provides game studios with flexibility, catering to their specific needs and removes the concern of being tied down to a single environment. 
+
+Immutable zkEVM - EVM ZK-Rollup for Games
+
+Immutable zkEVM has full custom smart contract compatibility enabling more advanced gameplay mechanics, richer in-game economies and complete interoperability with the Ethereum ecosystem. However, this comes with low gas fees and is recommended for more complex and mature games that want to integrate smart contracts in their games
+
+Immutable X - Optimized Game Specific ZK-Rollup
+
+Immutable X offers zero gas fees, instant transactions and streamlined gameplay mechanics offering an optimized experience for games that are less complex and mature that do not require smart contracts in their design
+step2: IMMUTABLE zkEVM ARCHITECTURE                                                                                                                                                            In this step, we will be looking at the key design pillars and considerations for Immutable zkEVM and highlight how effective Immutable zkEVM is in addressing the specific needs for games and developers!
+
+Key Design Pillars of Immutable zkEVM
+
+Below are the following design pillars behind Immutable zkEVM:
+
+    1) EVM Compatibility
+    2) Immutable zkEVM as an Ethereum zk-rollup
+
+
+#1 - EVM Compatibility
+
+Making Immutable zkEVM EVM-compatible is a strategic decision by Immutable, primarily driven by the EVM’s strong network effects:
+
+    > EVM Dominance - EVM chains account for over 90% of DeFi’s Total Value Locked (TVL). This is further magnified by the vast volume of games and applications currently built on EVM-chains
+
+
+    > Instant EVM Support -  Immutable zkEVM can seamlessly integrate with the extensive EVM-native ecosystem, enabling swift support and access to a plethora of tools and marketplaces
+
+
+    > Prioritizing Developer Experience - With Solidity reigning as the go-to choice for blockchain developers, the learning curve to start building on Immutable zkEVM is significantly reduced. This contrasts with the steep learning curves associated with newer languages like Cadence or Move, ensuring a more streamlined development process
+
+
+    > Smart Contract Templates - Immutable offers a repository of smart contract templates to reduce the development burden for developers. This empowers developers to dedicate their efforts to create a great game.                                                                                                                                                                                               In summary, by being EVM-compatible, Immutable zkEVM is able to benefit from the collective development efforts of the entire Ethereum ecosystem, all while having access to comprehensive battle-tested tools from Day 1!
+
+#2 - Immutable zkEVM as an Ethereum zk-rollup
+
+Immutable zkEVM’s decision to be an Ethereum zk-rollup is driven by the following factors:
+
+    Ethereum’s Security - By being a zk-rollup on Ethereum, Immutable zkEVM inherits the security of Ethereum ensuring that transactions are safeguarded against potential breaches and vulnerabilities
+
+
+    Cost Efficiency - Zk-rollups significantly reduces the need for inflationary token rewards traditionally used as validator incentives such that these cost savings can be passed on to platform users in the form of reduced transaction fees making it more attractive for users
+
+
+Now that you have a better understanding of the key design principles behind Immutable zkEVM, we will next be looking at Immutable zkEVM architecture.                                                                                                             Immutable zkEVM uses Polygon Zero as their Prover. 
+
+Role of Prover
+
+In the zero-knowledge proof system, the prover's role is to aggregate transactions into a consolidated proof.
+
+After this aggregation, a zero-knowledge proof is crafted by the prover to confirm the legitimacy of these transactions. This proof is then relayed to Ethereum for transaction validation.
+
+The importance of Polygon Zero, as a Type 1 zkEVM prover, for developers building on Immutable zkEVM:
+
+    No Modifications Required - Developers can transition seamlessly and build on Immutable zkEVM without needing to modify their existing smart contracts
+
+
+    Cost-Effective - With zk-rollups, developers benefit from considerably lower fees in comparison to Optimistic rollups. Additionally, they can transfer funds and assets to the Ethereum mainnet in under a week, without harming capital efficiency. For an in-depth comparison between zk and optimistic rollups, you can head over here
+
+
+You can also check out Vitalik’s breakdown of the different types of zkEVM over here.
+
+Furthermore, Immutable zkEVM also incorporates Polygon Edge as the client software for its nodes. Through targeted configurations and adaptations, it ensures that the throughput is fast and scalable, catering to game requirements!                                                                                                                                                     INTRODUCTION TO IMMUTABLE PASSPORT                                                                                                                                        Existing Problems with Wallets
+
+Before we spotlight Immutable Passport, it is important to first understand the existing problems with wallets and the hurdles faced by game studios and players.
+
+Web3 game studios today grapple with two primary obstacles: user acquisition and security and the root of these challenges is that it is mandatory for users to first create and set up their crypto wallets before actually playing the game.
+
+Mainstream gamers, while well-versed in traditional gaming elements like in-game currencies and player profiles, often find themselves in unfamiliar territory with crypto wallets.
+
+These gamers often find themselves baffled by the complex nature of crypto wallets - managing seed phrases, private keys, transaction signing and funding of wallets. 
+
+Moreover, many current wallet solutions are tailored more for DeFi or general use. These wallet solutions do not cater to the specific needs of gamers, such as game-related NFT discovery or in-game social achievements. 
+
+Furthermore, the constant need to sign each transaction for every in-game interaction disrupts the overall gaming experience which forces web3 games to often shift blockchain elements functionalities away from core gameplay.
+
+Recognizing these hurdles, Immutable has developed Immutable Passport, the seamless wallet onboarding solution specifically designed and tailored for web3 games and players!
+
+Introducing Immutable Passport
+Immutable Passport is a simple and secure onboarding solution designed for games and developers which aims to enable an enhanced user friendly experience for gamers through offering passwordless sign-on and automated wallet creation.                                                                                                                         Important: Immutable Passport being non-custodial, never takes custody of private keys! Users have full ownership and control over their private keys where only the user can access and manage the funds on their Immutable Passport. 
+
+Beyond just wallet functionalities, the Immutable Passport also integrates vertically across the Immutable platform offering developers access to gamers, marketplaces and an infrastructure that scales to meet the needs of games.
+
+Essentially, with Immutable Passport, gamers will only create their Passport once and Immutable Passport will grant them access to all games and marketplaces built on Immutable, eliminating the need for gamers to create a new account for every game! 
+
+Now that you have a better overview of what Immutable Passport is, in the next step, we will dive deeper into the perks of the Immutable Passport.                                                                                                                                     BENEFITS OF IMMUTABLE PASSPORT                                                                                                                                                    In the previous step, we have outlined the existing problems with wallets today and how Immutable Passport helps address these problems.
+
+In this step, we will delve deeper into the compelling reasons for game studios and developers to integrate Immutable Passport into their games!
+
+The following are the key reasons why Immutable Passport should be integrated into games:
+
+    I) Access to Games & Marketplaces
+    II) Passport & Checkout Integration For Optimized Conversion
+    III) Frictionless gamer onboarding
+
+
+Access to Games and Marketplaces
+
+Immutable Passport is not bound to a particular game or marketplace and travels with the user across the entire Immutable ecosystem unlike many of the current wallet solutions.
+
+This means that if the user has funds through an on-ramp or via selling an in-game asset, the funds would be made available on all games and marketplaces built on Immutable.
+
+This eliminates the need for the gamers to transfer funds to another wallet for another game, massively reducing the purchase friction for gamers!                                                                                                                                Moreover, Immutable Passport is also integrated with the Global Orderbook, which makes it a game-changer!
+
+This integration amplifies the reach of any item when a user lists for sale, making it across all integrated marketplaces. This not only enhances item visibility but also boosts overall trading liquidity for the listed item!
+
+Passport & Checkout Integration For Optimized Conversion
+
+Delivering a truly immersive gaming experience goes beyond just the in-game elements. The purchase flow conversion is equally pivotal. 
+
+Obstacles like tricky on-ramps, the necessity to swap currencies via a DEX, or ill-timed pop-ups can drastically impede large-scale monetization.
+
+Enter Immutable Checkout, a comprehensive payment solution designed for a seamless experience across all web3 wallets. 
+
+Immutable Checkout streamlines the checkout process for your game or marketplace, effortlessly removing complexities for users. This guarantees that users face the least possible hurdles during their transactions.
+
+For a more seamless experience, Immutable Passport is also integrated with the Checkout product, which ensures that whether a gamer is purchasing in-game assets or looking to fund their Passport from a bank account, the end-to-end experience from wallet creation to initiating a transaction remains seamless and user-friendly!
+
+Additionally, Immutable is working closely with on and off-ramp vendors, to provide an extremely easy on-ramp process to fund their wallet balance via credit cards and off-ramp to transfer their funds back to their bank accounts.
+
+Frictionless Gamer Onboarding
+
+With Immutable Passport, users enjoy a frictionless sign in experience with social authorization or one-time passwords.  
+
+Instead of juggling multiple accounts and passwords for different games, players now can effortlessly sign in using their Google email across various games in under 20 seconds and dive straight into the action!
+
+Hence, by integrating Immutable Passport into their platforms, game studios and developers can not only navigate the challenges of liquidity fragmentation but also offer an elevated user experience, accelerating mainstream user conversion!
+
+Now, equipped with insights into the advantages of Immutable Passport, we will be creating our very own Immutable Passport in the next step!                                                                                                                                      CREATE IMMUTABLE PASSPORT                                                                                                                                                               In this step, we will create our very own Immutable Passport through the Developer Hub and firsthand experience the seamless signup process of the Passport.
+
+To begin, head over https://www.immutable.com/gamers/passport?utm_source=stackup&utm_medium=event&utm_campaign=tribe
+
+You should be directed to the Immutable Passport creation page as shown below!                                                           Next, click on “Get your Passport”.
+
+Under the Immutable Passport modal, click on “Create Passport” and choose your preferred sign-in method for your Passport and this will be your primary login to applications integrated with the Immutable Passport!
+
+You should observe the following once your Immutable Passport is successfully created!                                             How easy was that? With Immutable Passport, users no longer have to deal with the complexities of wallets such as managing seed phrases and their private keys!
+
+In the next step, we will dive into the Immutable Developer Hub                                                                                                     Overview of Immutable Developer Hub
+Now that you have created your Immutable Passport, let’s explore its seamless integration across the Immutable product suite, in particular the Immutable Developer Hub! 
+
+In this step, we will be using our newly created Immutable Passport and login to the Immutable Developer Hub!
+
+To begin, head over here and you should be directed to the Immutable Hub authentication page as shown below. Proceed to click on “Continue”.
+Next, the Immutable Passport modal should appear where you will be given the option to create a new Immutable Passport or login to the Developer Hub via your Passport as shown below. Click on “Log in”.                                                                                                                                                                                                                       Next, proceed to select the sign-in method for your Immutable Passport as you have configured in Step 3.
+
+Upon the successful login through your Immutable Passport, you will automatically be directed to the Immutable Developer Hub! 
+
+Proceed to create a new project and name it Default Project.
+
+﻿Next, proceed to follow the instructions as shown below to navigate over to the “Project” view on the Immutable Developer Hub.                                                                                                                                                                             You should now be redirected to your Project View on Immutable Developer Hub!
+
+Overview of Immutable Developer Hub
+
+The Immutable Developer Hub serves as the primary touchpoint for developers building on Immutable zkEVM.
+
+Within the Immutable Developer Hub, you will find essential tools and guides necessary to begin building on Immutable zkEVM. This includes access to a faucet for test tokens and comprehensive development guides and tutorials!
+
+Thanks to our Immutable Passport, we have effortlessly signed into Immutable Developer Hub, bypassing the conventional account creation process for every new application.
+
+In essence, for applications integrated with the Immutable Passport, users can enjoy a hassle free sign-in experience across web3 games and marketplaces as they explore new digital worlds.
+
+Proceed to take a screenshot of the Immutable Developer Hub as shown below as it is the required deliverable in this quest!                                                                                                                                                                                       
+
+ NOW USING THE INSTRUCTIONS I GAVE YOU EARLIER, PLEASE ENSURE YOU TOUCH ON THOSE TOPICS AND ASK ME FOR ANY CLARIFICATION
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Write a reflection (around 1250 words) of the Kanban game under the following sections:                                                                                                                                                                                           1).Workflow Optimization:                                                                                                                                                            -How did the team collaborate to optimize the workflow in the kanban game?                                                            -Were there specific instances where adjusting the kanban board or process positively impacted the efficiency of pizza production?                                                                                              2).Retrospective and Feedback:                                                                                                                                               -How well did the team incorporate feedback after each retrospective into the Kanban game?                                                                                                                                                                                                 -Were there mechanisms in place to gather and respond to issues from the retrospective and how did it affect the team's decision making?                                                                                                                                                                                        3).Team Dynamics and Roles:                                                                                                                                                                  -How did the team members collaborate within their respective roles in the Kanban game?                                                                                                                                                                                                       -Were there challenges or successes related to role distribution and teamwork, and how did they impact overall performance?                                                                                                                         GAME DESCRIPTION SUMMERY:
+Make pizzas according to the requirements. Each group organizes its own distribution.
+The requirements should be written on the board above, first red, then yellow, then cheese, then two toppings, no overlapping of toppings.
+
+After combining the pizzas, you have to put them in the oven for 5 seconds and then take them out and put them in the final box.
+
+In our group there are six of us and each of us is responsible for one step 1. making the red 2. making the yellow 3. making the cheese 4. making the toppings 5. dragging it to the oven 6. taking it from the oven to the final box
+
+Then in the second and third rounds, you can see in the picture that there are WIP limitations, some parts can only do three steps, some can only do two.
+The third round has an extra sausage stuffing, and then you have to assemble it according to the order.
+
+
+
+That's pretty much what the game is about, it's about working together as a group to make a pizza, and the reflection is an extension of that game to write what the first picture asks for.                                                                                                                                                                                   GAME INSTRUCTIONS:                                                                                                                                                                  Imagine you are a team of pizza chefs. In front of you is a table with all the pizza ingredients. Your job is to make a pizza that matches the perfect pizza image.                                                                       The pizza must bake according to directions. Remember the customer has high quality standards.                                                                                                                                                                          ROUNDS:                                                                                                                                                                                        -Each round will last 7 minutes.                                                                                                                                             Retrospective:                                                                                                                                                                              -At the end of each round the team will have retrospective to reflect on their work and come up with ideas on how to improve.                                                                                                                                                                                                                                                -Retros will 3minutes giving the team the opportunity to improve the suystem.                                                              Pizza Instructions:                                                                                                                                                                        -Make a pizza base(crust), add tomato sauce(red circle), add 3 slices of ham(pink circles) and add 3 slices of pineapple(yellow quadrangle).                                                                                           -The tomato sauce should cover the pizza bottom nicely and the toppings are carefully  distributed evenly across the pizza.                                                                                                                                                          -There can only be a minimum of 3 pizzas in the oven at one time. Cooking time is at least 30 seconds. No adding or removing of slices while cooking!                                                                                           -Produce as many pizzas as the team can produce while trying to avoid waste, i.e raw materials.                                                                                                                                                                                           Setup the game board
+ 
+ 
+ 
+ 
+ Write a reflection (around 1250 words) of the Kanban game under the following sections:                                                                                                                                                                                           1).Workflow Optimization:                                                                                                                                                            -How did the team collaborate to optimize the workflow in the kanban game?                                                            -Were there specific instances where adjusting the kanban board or process positively impacted the efficiency of pizza production?                                                                                              2).Retrospective and Feedback:                                                                                                                                               -How well did the team incorporate feedback after each retrospective into the Kanban game?                                                                                                                                                                                                 -Were there mechanisms in place to gather and respond to issues from the retrospective and how did it affect the team's decision making?                                                                                                                                                                                        3).Team Dynamics and Roles:                                                                                                                                                                  -How did the team members collaborate within their respective roles in the Kanban game?                                                                                                                                                                                                       -Were there challenges or successes related to role distribution and teamwork, and how did they impact overall performance?                                                                                                                         GAME DESCRIPTION SUMMERY:
+Make pizzas according to the requirements. Each group organizes its own distribution.
+The requirements should be written on the board above, first red, then yellow, then cheese, then two toppings, no overlapping of toppings.
+
+After combining the pizzas, you have to put them in the oven for 5 seconds and then take them out and put them in the final box.
+
+In our group there are six of us and each of us is responsible for one step 1. making the red 2. making the yellow 3. making the cheese 4. making the toppings 5. dragging it to the oven 6. taking it from the oven to the final box
+
+Then in the second and third rounds, you can see in the picture that there are WIP limitations, some parts can only do three steps, some can only do two.
+The third round has an extra sausage stuffing, and then you have to assemble it according to the order.
+
+
+
+That's pretty much what the game is about, it's about working together as a group to make a pizza, and the reflection is an extension of that game to write what the first picture asks for.                                                                                                                                                                                   GAME INSTRUCTIONS:                                                                                                                                                                  Imagine you are a team of pizza chefs. In front of you is a table with all the pizza ingredients. Your job is to make a pizza that matches the perfect pizza image.                                                                       The pizza must bake according to directions. Remember the customer has high quality standards.                                                                                                                                                                          ROUNDS:                                                                                                                                                                                        -Each round will last 7 minutes.                                                                                                                                             Retrospective:                                                                                                                                                                              -At the end of each round the team will have retrospective to reflect on their work and come up with ideas on how to improve.                                                                                                                                                                                                                                                -Retros will 3minutes giving the team the opportunity to improve the suystem.                                                              Pizza Instructions:                                                                                                                                                                        -Make a pizza base(crust), add tomato sauce(red circle), add 3 slices of ham(pink circles) and add 3 slices of pineapple(yellow quadrangle).                                                                                           -The tomato sauce should cover the pizza bottom nicely and the toppings are carefully  distributed evenly across the pizza.                                                                                                                                                          -There can only be a minimum of 3 pizzas in the oven at one time. Cooking time is at least 30 seconds. No adding or removing of slices while cooking!                                                                                           -Produce as many pizzas as the team can produce while trying to avoid waste, i.e raw materials.                                                                                                                                                                                           Setup the game board:                                                                                                                                                                                                                                                                -Select a person to be in charge of the oven and time.                                                                                                                                             -Click on the clock icon to set the time to 30 seconds.                                                                                                 -Select the shape icon  on the left to draw pizza shapes.                                                                                                                         -Click on the Frames icon in the floating tool menus so you can see each of the slides, 3 rounds and retros.                                                                                                                                                                     ROUND 1: KANBAN PRINCIPLES                                                                                                                                         Round 1 Game Play                                                                                                                                                                                     -Assign a time keeper who will also be the baker.                                                                                                                          -Team should talk about how they are going to make pizzas.                                                                                                 -Team will record points at the end of each iteration.                                                                                                                                                                                -Before the round estimate how many pizzas you can make in 5 minutes.                                                                  Scoring                                                                                                                                                                                             -Each completed pizza is worth 100 points.                                                                                                                       -Partially completed pizzas are worth 50 points.                                                                                                                                     -Pizzas still in the oven when the round is over are worth 50 points.                                                                                 -Defective pizzas minus 25 points.                                                                                                                                    -Waste or Extra items minus 10 points                                                                                                                                            Each round will be 5 minutes                                                                                                                                                                            -Anyone can call a defect but it only counts if the pizza is work in progress.                                                                                   Retrospective will be 5 minutes                                                                                                                                                          -At the end of each round the teams will be brought back to the main room for retro.                                      -Take the time to discuss how to improve the system.
+ 
+ 
+ 
+ 
+ 
+ 
+ github PAT - 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
+ PAT_2 - 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
+ 
+ circle app ID - eb466383-436d-5bdb-8dc8-b85ff0975434
+ 
+ CIRCLe API key - TEST_API_KEY:8b848083e82441e5811aac6c64e4bbe4:9c24edb7cbdd50fec9c591330b4dc4ab
+ 
+ UUID_4_session&user -  cc65f294-8029-49b5-b58d-a76528ac3849
+ UUID_4_wallet - 4491df8b-17ca-46a1-8283-0f19ab86774f
+
+ 1st ACC. - 0x2c2a4e4962287ebcc928eb1eeeff413b2a0cfd86 
+ 2nd ACC. - 0x926d86ca0f34fc865a5c3f8b31a75ab89e25c244
+ USDC token ID - 92af90af-5823-5cfa-a770-0575d177ef2a
+ 
+ ENCRYPTION KEY - OPcJVyG4yH/mlqcPyBxAxJw7tpaAFVG6/rJh1glaQuM=
+ USER TOKEN - eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJkZXZlbG9wZXJFbnRpdHlFbnZpcm9ubWVudCI6IlRFU1QiLCJlbnRpdHlJZCI6IjAwYjNjOGI4LWU0ZGQtNGI5Zi04ZDJkLTQyZTBkZWQxYjM0YyIsImV4cCI6MTY5OTkzMDUxNCwiaWF0IjoxNjk5OTI2OTE0LCJpbnRlcm5hbFVzZXJJZCI6Ijk0MjIyZTg5LTVjNDctNTM2My1hMWYxLWE5NzEzNWMwODNiNCIsImlzcyI6Imh0dHBzOi8vcHJvZ3JhbW1hYmxlLXdhbGxldC5jaXJjbGUuY29tIiwianRpIjoiN2NmNjZiMDAtNWRhZi00ZThhLTkxZTgtNTU0ZmIyMmRhYWQyIiwic3ViIjoiY2M2NWYyOTQtODAyOS00OWI1LWI1OGQtYTc2NTI4YWMzODQ5In0.ddQx2_lOFJkh3WtvBbM0x_9Izm1GH7f9goykpHL-PSLeG3c1G08CgejUgHC3age4vdyE2bcd0xkgQGCUWwFfYp8wLYhbJI29o4W-9dx6yHzULZZ8VNHNIGhgsngkQXSIMje-UviI7CRTpQZss1C7JXTyEJq8WVENosMPBAQ_HvhVpQCYbjuMgVXHocD7skloN-XLl3xuptEmynikwp_OW8jA_EiOVVE79vve6zCHDisuNiaFRNZoVqK1jfFD-1gKBzmee32NzWlUUkTlMqZCOWy2akxVsnHv_2pcm3C9QgR19J0eQcDBJlrljeXbQfj9H-oHNPaGtkDnN4HNKLkmnw
+ 
+ 
+  Challenge ID - ff62858c-ad3d-528a-a3ec-41ef2c9bd325
+ 
+ 
+  NewUUID - 940690d7-7e62-41f0-9853-73c6da1789f1
+ ANother UUID - ee40980f-64c4-46ff-b865-12428e2bd385
+ 
+
+

@@ -62,7 +62,7 @@ const server = http.createServer((req, res) => {
   // formidable
   // UPLOAD AND SAVE FILE
 
-  if (req.url == "/fileupload") {
+  if (req.url == "/fileupload" && req.method.toLowerCase() === "post") {
     let form = new formidable.IncomingForm();
     form.uploadDir = "./myfiles";
     form.keepExtensions = true;
@@ -81,7 +81,7 @@ const server = http.createServer((req, res) => {
   } else {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.write(
-      "<form action='fileupload' method='post' enctype='multipart/form-data'>"
+      "<form action='/fileupload' method='post' enctype='multipart/form-data'>"
     );
     res.write("<input type='file' name='fileupload'>");
     res.write("<input type='submit'>");
@@ -90,6 +90,7 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(3000);
-console.log("server is running on port 3000...");
-console.log("http://localhost:3000");
+server.listen(3000, () => {
+  console.log("server is running on port 3000...");
+  console.log("http://localhost:3000");
+});
