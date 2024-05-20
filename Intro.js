@@ -74,6 +74,7 @@ const server = http.createServer((req, res) => {
         files.fileupload.originalFilename
       );
       fs.rename(oldPath, newPath, (err) => {
+        res.writeHead(200, { "Content-Type": "text/html" });
         res.write("File Uploaded");
         res.end();
       });
@@ -84,7 +85,7 @@ const server = http.createServer((req, res) => {
       "<form action='/fileupload' method='post' enctype='multipart/form-data'>"
     );
     res.write("<input type='file' name='fileupload'>");
-    res.write("<input type='submit'>");
+    res.write("<input type='submit' value='Upload'>");
     res.write("</form>");
     res.end();
   }
