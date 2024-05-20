@@ -9,14 +9,14 @@ const myVar = 45;
 // http module
 const server = http.createServer((req, res) => {
   // fs module
-  /*READ FROMA FILE
+  // READ FROMA FILE
   fs.readFile("input.html", (err, data) => {
     res.writeHead(200, { "Content-Type": "text/html" });
     res.write(data);
     res.end();
-  });*/
-  /*
-   APPEND CONTENT TO A FILE
+  });
+
+  //  APPEND CONTENT TO A FILE
 
   fs.appendFile(
     "input1.txt",
@@ -24,28 +24,28 @@ const server = http.createServer((req, res) => {
     (err) => {
       if (err) throw err;
     }
-  );*/
-  /*OPEN AND WRITE TO A FILE
+  );
+  // OPEN AND WRITE TO A FILE
   fs.open("input.txt", "r", (err, file) => {
     fs.writeFile("input.txt", "this is fresh content", (err) => {});
     fs.readFile("input.txt", (err, data) => {
       res.write(data);
       res.end();
     });
-  });*/
-  /*DELETE FILE
-  fs.unlink("input.txt", (err) => {});*/
+  });
+  // DELETE FILE
+  fs.unlink("input.txt", (err) => {});
   // URL module
-  /*try {
+  try {
     let q = url.parse(req.url, true);
     let text = q.year + " " + q.month + " " + q.day;
     res.write(q);
     res.end();
   } catch (e) {
     res.write("error");
-  } */
+  }
   // serve file requested by client
-  /*let q = url.parse(req.url, true);
+  let q = url.parse(req.url, true);
   let filename = "." + q.pathname;
   fs.readFile(filename, (err, data) => {
     if (err) {
@@ -55,40 +55,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { "Contet-Type": "text/html" });
     res.write(data);
     res.end();
-  });*/
-
-  // EVENT + EventEmitter
-
-  // formidable
-  // UPLOAD AND SAVE FILE
-
-  if (req.url == "/fileupload" && req.method.toLowerCase() === "post") {
-    let form = new formidable.IncomingForm();
-    form.uploadDir = "./myfiles";
-    form.keepExtensions = true;
-
-    form.parse(req, (err, fields, files) => {
-      const oldPath = files.fileupload.filepath;
-      const newPath = path.join(
-        form.uploadDir,
-        files.fileupload.originalFilename
-      );
-      fs.rename(oldPath, newPath, (err) => {
-        res.writeHead(200, { "Content-Type": "text/html" });
-        res.write("File Uploaded");
-        res.end();
-      });
-    });
-  } else {
-    res.writeHead(200, { "Content-Type": "text/html" });
-    res.write(
-      "<form action='/fileupload' method='post' enctype='multipart/form-data'>"
-    );
-    res.write("<input type='file' name='fileupload'>");
-    res.write("<input type='submit' value='Upload'>");
-    res.write("</form>");
-    res.end();
-  }
+  });
 });
 
 server.listen(3000, () => {
